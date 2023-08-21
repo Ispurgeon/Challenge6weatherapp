@@ -1,0 +1,62 @@
+/* added per best practice to set global style */
+/* set the global style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* added this to remove style commands from html code to make it more maintainable per best practices */
+.custom-header-bg {
+  background-color: rgb(147, 147, 248);
+}
+
+/* no longer required due to bootstrap */
+/* h1 {
+  color: white;
+} */
+
+/* relocated from html per best practices */
+h3 {
+  color: white;
+}
+body {
+  font-family:'Courier New';
+}
+
+p {
+ 
+  padding: 20px;
+  /* display: flex; */
+  background-color: skyblue;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  border-radius: 85%;
+  position: relative;
+  border: 5px solid rgb(109, 181, 226);
+width: max-content;
+margin:auto;
+}
+
+form {
+  width: 300px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+input {
+  padding: 4px 10px;
+  border: 0;
+  font-size: 16px;
+}
+.search {
+  width: 75%;
+}
+
+.submit {
+  width: 70px;
+  background-color: rgb(230, 200, 255);
+  color: white;
+}
+
+
